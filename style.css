@@ -1,0 +1,263 @@
+.navbar {
+    background-color: #1a1a1a;
+    /* Dark background */
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: none;
+}
+
+.dropdown-item {
+    color: black;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    color: #00ff88;
+    /* Neon green on hover */
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.dropdown-item.active {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00ff88;
+}
+
+.explore-btn:hover {
+    color: #00ff88;
+    /* Text color on hover */
+}
+.explore-btn:hover .arrow-icon {
+    transform: rotate(45deg);
+    /* Use 'transform' to apply rotation */
+    transition-duration: 0.4s;
+    /* Ensure a valid time unit like 's' for seconds */
+}
+
+
+
+.learn-more-link:hover {
+    color: #28a745; /* Brighter green */
+    text-decoration: underline; /* Adds underline on hover */
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+.learn-more-link:hover .arrow-icon {
+    transform: translateY(5px); /* Moves the arrow down slightly on hover */
+}
+
+
+.solutions-card {
+    background-color: #1C1D1D;
+}
+
+.solutions-card:hover {
+    background-color: #202423;
+}
+
+
+/* Ensures all images have the same size */
+.work-image {
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Set a consistent height */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+
+/* Styling for container positioning */
+.position-relative {
+    position: relative;
+}
+
+/* Hover text styling */
+.hover-text {
+    position: absolute;
+    bottom: 0; /* Align text at the bottom */
+    left: 0;
+    width: 100%; /* Span full width of the image */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the text */
+    padding: 10px 0; /* Padding for spacing */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out; /* Smooth hover effect */
+    border-bottom-left-radius: 0.5rem; /* Match image rounded corners */
+    border-bottom-right-radius: 0.5rem;
+}
+
+/* Show hover text */
+.position-relative:hover .hover-text {
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+.w-33 {
+    width: calc(33.33% - 16px); /* Divide evenly between three items with gap */
+}
+
+
+
+
+
+
+/* General Section Styling */
+section {
+    margin-top: 100px;
+    width: 90%;
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Stat Icon Styling */
+.stat-icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+/* Stat Heading Styling */
+.stat-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+    .w-50 {
+        width: 100%;
+    }
+}
+
+
+/* Section Styling */
+.client-experiences h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.client-experiences p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Feedback Box Styling */
+.feedback-box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feedback-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Client Photo */
+.client-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Client Name */
+.client-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Feedback Text */
+.feedback-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Rating Icons */
+.rating i {
+    color: #ffc107;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feedback-box {
+        width: 100%;
+    }
+}
+
+
+
+.plans-section h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.plan-card {
+    background-color:black;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plan-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan-card ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.plan-card ul li i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.plan-card button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.plan-card button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
